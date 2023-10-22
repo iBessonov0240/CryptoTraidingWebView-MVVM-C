@@ -13,6 +13,7 @@
 		FAFDB29D2AE4E3FE00E41FBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFDB29B2AE4E3FE00E41FBB /* Main.storyboard */; };
 		FAFDB29F2AE4E40000E41FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFDB29E2AE4E40000E41FBB /* Assets.xcassets */; };
 		FAFDB2A22AE4E40000E41FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFDB2A02AE4E40000E41FBB /* LaunchScreen.storyboard */; };
+		FAFDB2AF2AE4EDDB00E41FBB /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2AE2AE4EDDB00E41FBB /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FAFDB29E2AE4E40000E41FBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAFDB2A12AE4E40000E41FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAFDB2A32AE4E40000E41FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFDB2AE2AE4EDDB00E41FBB /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,56 @@
 		FAFDB2942AE4E3FE00E41FBB /* CryptoTraidingWebView-MVVM-C */ = {
 			isa = PBXGroup;
 			children = (
-				FAFDB2952AE4E3FE00E41FBB /* AppDelegate.swift */,
-				FAFDB2972AE4E3FE00E41FBB /* SceneDelegate.swift */,
-				FAFDB2992AE4E3FE00E41FBB /* ViewController.swift */,
-				FAFDB29B2AE4E3FE00E41FBB /* Main.storyboard */,
-				FAFDB29E2AE4E40000E41FBB /* Assets.xcassets */,
-				FAFDB2A02AE4E40000E41FBB /* LaunchScreen.storyboard */,
-				FAFDB2A32AE4E40000E41FBB /* Info.plist */,
+				FAFDB2AD2AE4EDB000E41FBB /* Extensions */,
+				FAFDB2AC2AE4ED9400E41FBB /* Resources */,
+				FAFDB2AB2AE4ED8300E41FBB /* Sources */,
+				FAFDB2AA2AE4ED6800E41FBB /* App */,
+				FAFDB2A92AE4ED4C00E41FBB /* Storyboards */,
 			);
 			path = "CryptoTraidingWebView-MVVM-C";
+			sourceTree = "<group>";
+		};
+		FAFDB2A92AE4ED4C00E41FBB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDB29B2AE4E3FE00E41FBB /* Main.storyboard */,
+				FAFDB2A02AE4E40000E41FBB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FAFDB2AA2AE4ED6800E41FBB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDB2952AE4E3FE00E41FBB /* AppDelegate.swift */,
+				FAFDB2972AE4E3FE00E41FBB /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FAFDB2AB2AE4ED8300E41FBB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDB2992AE4E3FE00E41FBB /* ViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FAFDB2AC2AE4ED9400E41FBB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDB29E2AE4E40000E41FBB /* Assets.xcassets */,
+				FAFDB2A32AE4E40000E41FBB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAFDB2AD2AE4EDB000E41FBB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDB2AE2AE4EDDB00E41FBB /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +183,7 @@
 			files = (
 				FAFDB29A2AE4E3FE00E41FBB /* ViewController.swift in Sources */,
 				FAFDB2962AE4E3FE00E41FBB /* AppDelegate.swift in Sources */,
+				FAFDB2AF2AE4EDDB00E41FBB /* UIView+Extensions.swift in Sources */,
 				FAFDB2982AE4E3FE00E41FBB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +338,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5C9S7JT7L3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "CryptoTraidingWebView-MVVM-C/Info.plist";
+				INFOPLIST_FILE = "CryptoTraidingWebView-MVVM-C/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,7 +366,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5C9S7JT7L3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "CryptoTraidingWebView-MVVM-C/Info.plist";
+				INFOPLIST_FILE = "CryptoTraidingWebView-MVVM-C/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
