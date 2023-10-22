@@ -14,6 +14,10 @@
 		FAFDB29F2AE4E40000E41FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFDB29E2AE4E40000E41FBB /* Assets.xcassets */; };
 		FAFDB2A22AE4E40000E41FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFDB2A02AE4E40000E41FBB /* LaunchScreen.storyboard */; };
 		FAFDB2AF2AE4EDDB00E41FBB /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2AE2AE4EDDB00E41FBB /* UIView+Extensions.swift */; };
+		FAFDB2B22AE4F2FD00E41FBB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2B12AE4F2FD00E41FBB /* Theme.swift */; };
+		FAFDB2B42AE4F43200E41FBB /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2B32AE4F43200E41FBB /* UIColor+Extensions.swift */; };
+		FAFDB2B72AE4F51C00E41FBB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2B62AE4F51C00E41FBB /* Coordinator.swift */; };
+		FAFDB2B92AE4F56500E41FBB /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2B82AE4F56500E41FBB /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		FAFDB2A12AE4E40000E41FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAFDB2A32AE4E40000E41FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAFDB2AE2AE4EDDB00E41FBB /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		FAFDB2B12AE4F2FD00E41FBB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		FAFDB2B32AE4F43200E41FBB /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		FAFDB2B62AE4F51C00E41FBB /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		FAFDB2B82AE4F56500E41FBB /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,7 @@
 		FAFDB2AB2AE4ED8300E41FBB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				FAFDB2B52AE4F4FB00E41FBB /* Coordinator */,
 				FAFDB2992AE4E3FE00E41FBB /* ViewController.swift */,
 			);
 			path = Sources;
@@ -96,6 +105,7 @@
 		FAFDB2AC2AE4ED9400E41FBB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FAFDB2B02AE4F2E900E41FBB /* Constants */,
 				FAFDB29E2AE4E40000E41FBB /* Assets.xcassets */,
 				FAFDB2A32AE4E40000E41FBB /* Info.plist */,
 			);
@@ -106,8 +116,26 @@
 			isa = PBXGroup;
 			children = (
 				FAFDB2AE2AE4EDDB00E41FBB /* UIView+Extensions.swift */,
+				FAFDB2B32AE4F43200E41FBB /* UIColor+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FAFDB2B02AE4F2E900E41FBB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDB2B12AE4F2FD00E41FBB /* Theme.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FAFDB2B52AE4F4FB00E41FBB /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDB2B62AE4F51C00E41FBB /* Coordinator.swift */,
+				FAFDB2B82AE4F56500E41FBB /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,9 +210,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAFDB29A2AE4E3FE00E41FBB /* ViewController.swift in Sources */,
+				FAFDB2B42AE4F43200E41FBB /* UIColor+Extensions.swift in Sources */,
 				FAFDB2962AE4E3FE00E41FBB /* AppDelegate.swift in Sources */,
+				FAFDB2B22AE4F2FD00E41FBB /* Theme.swift in Sources */,
+				FAFDB2B92AE4F56500E41FBB /* AppCoordinator.swift in Sources */,
 				FAFDB2AF2AE4EDDB00E41FBB /* UIView+Extensions.swift in Sources */,
 				FAFDB2982AE4E3FE00E41FBB /* SceneDelegate.swift in Sources */,
+				FAFDB2B72AE4F51C00E41FBB /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
