@@ -11,9 +11,12 @@ struct Theme {
 
     // MARK: - Colors
 
-    static var cellSelectedBackground: UIColor = UIColor(hexString: "#FFE4D8")!
+    static var greenColor: UIColor = UIColor(hexString: "#35B972")!
+    static var lightGrayColor: UIColor = UIColor(hexString: "#5B5A60")!
+    static var darkGrayColor: UIColor = UIColor(hexString: "#787D8F")!
+    static var backgroundColor: UIColor = UIColor(hexString: "#121629")!
 
     // MARK: - Images
 
-    static var avatarDefault = UIImage(named: "avatar-0")
+    static var launchScreenImage = UIImage(named: "launch-screen")
 }

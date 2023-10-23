@@ -25,7 +25,7 @@ class AppCoordinator: Coordinator {
     func start() {
         window.rootViewController = rootViewController
         window.makeKeyAndVisible()
-//        let startCoordinator = StartCoordinator(navigationController: rootViewController)
-//        startCoordinator.start()
+        let launchScreenCoordinator = LaunchScreenCoordinator(navigationController: rootViewController)
+        launchScreenCoordinator.start()
     }
 }

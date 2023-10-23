@@ -18,6 +18,19 @@
 		FAFDB2B42AE4F43200E41FBB /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2B32AE4F43200E41FBB /* UIColor+Extensions.swift */; };
 		FAFDB2B72AE4F51C00E41FBB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2B62AE4F51C00E41FBB /* Coordinator.swift */; };
 		FAFDB2B92AE4F56500E41FBB /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2B82AE4F56500E41FBB /* AppCoordinator.swift */; };
+		FAFDB2BD2AE4FA2F00E41FBB /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2BC2AE4FA2F00E41FBB /* LaunchScreenViewController.swift */; };
+		FAFDB2BF2AE4FA5800E41FBB /* LaunchScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2BE2AE4FA5800E41FBB /* LaunchScreenCoordinator.swift */; };
+		FAFDB2C12AE4FA7400E41FBB /* LaunchScreenRoutingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2C02AE4FA7400E41FBB /* LaunchScreenRoutingDelegate.swift */; };
+		FAFDB2C82AE6335200E41FBB /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2C72AE6335200E41FBB /* TopViewController.swift */; };
+		FAFDB2CB2AE6336900E41FBB /* TradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2CA2AE6336900E41FBB /* TradeViewController.swift */; };
+		FAFDB2CD2AE6348900E41FBB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2CC2AE6348900E41FBB /* TabBarViewController.swift */; };
+		FAFDB2CF2AE634A900E41FBB /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2CE2AE634A900E41FBB /* TabBarCoordinator.swift */; };
+		FAFDB2D12AE6377900E41FBB /* TopRoutingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2D02AE6377900E41FBB /* TopRoutingDelegate.swift */; };
+		FAFDB2D32AE6378A00E41FBB /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2D22AE6378A00E41FBB /* TopViewModel.swift */; };
+		FAFDB2D52AE6379E00E41FBB /* TopCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2D42AE6379E00E41FBB /* TopCoordinator.swift */; };
+		FAFDB2D72AE63A0900E41FBB /* TradeRoutingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2D62AE63A0900E41FBB /* TradeRoutingDelegate.swift */; };
+		FAFDB2D92AE63A1A00E41FBB /* TradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2D82AE63A1A00E41FBB /* TradeViewModel.swift */; };
+		FAFDB2DB2AE63A3D00E41FBB /* TradeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDB2DA2AE63A3D00E41FBB /* TradeCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +47,19 @@
 		FAFDB2B32AE4F43200E41FBB /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		FAFDB2B62AE4F51C00E41FBB /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		FAFDB2B82AE4F56500E41FBB /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		FAFDB2BC2AE4FA2F00E41FBB /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		FAFDB2BE2AE4FA5800E41FBB /* LaunchScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenCoordinator.swift; sourceTree = "<group>"; };
+		FAFDB2C02AE4FA7400E41FBB /* LaunchScreenRoutingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenRoutingDelegate.swift; sourceTree = "<group>"; };
+		FAFDB2C72AE6335200E41FBB /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		FAFDB2CA2AE6336900E41FBB /* TradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewController.swift; sourceTree = "<group>"; };
+		FAFDB2CC2AE6348900E41FBB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		FAFDB2CE2AE634A900E41FBB /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		FAFDB2D02AE6377900E41FBB /* TopRoutingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRoutingDelegate.swift; sourceTree = "<group>"; };
+		FAFDB2D22AE6378A00E41FBB /* TopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
+		FAFDB2D42AE6379E00E41FBB /* TopCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCoordinator.swift; sourceTree = "<group>"; };
+		FAFDB2D62AE63A0900E41FBB /* TradeRoutingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRoutingDelegate.swift; sourceTree = "<group>"; };
+		FAFDB2D82AE63A1A00E41FBB /* TradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewModel.swift; sourceTree = "<group>"; };
+		FAFDB2DA2AE63A3D00E41FBB /* TradeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +122,10 @@
 		FAFDB2AB2AE4ED8300E41FBB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				FAFDB2C92AE6335700E41FBB /* Trade */,
+				FAFDB2C62AE6332400E41FBB /* Top */,
+				FAFDB2C52AE6314F00E41FBB /* TabBar */,
+				FAFDB2BB2AE4FA0900E41FBB /* LaunchScreen */,
 				FAFDB2B52AE4F4FB00E41FBB /* Coordinator */,
 				FAFDB2992AE4E3FE00E41FBB /* ViewController.swift */,
 			);
@@ -136,6 +166,47 @@
 				FAFDB2B82AE4F56500E41FBB /* AppCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		FAFDB2BB2AE4FA0900E41FBB /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDB2BE2AE4FA5800E41FBB /* LaunchScreenCoordinator.swift */,
+				FAFDB2BC2AE4FA2F00E41FBB /* LaunchScreenViewController.swift */,
+				FAFDB2C02AE4FA7400E41FBB /* LaunchScreenRoutingDelegate.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		FAFDB2C52AE6314F00E41FBB /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDB2CC2AE6348900E41FBB /* TabBarViewController.swift */,
+				FAFDB2CE2AE634A900E41FBB /* TabBarCoordinator.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		FAFDB2C62AE6332400E41FBB /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDB2C72AE6335200E41FBB /* TopViewController.swift */,
+				FAFDB2D02AE6377900E41FBB /* TopRoutingDelegate.swift */,
+				FAFDB2D22AE6378A00E41FBB /* TopViewModel.swift */,
+				FAFDB2D42AE6379E00E41FBB /* TopCoordinator.swift */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
+		FAFDB2C92AE6335700E41FBB /* Trade */ = {
+			isa = PBXGroup;
+			children = (
+				FAFDB2CA2AE6336900E41FBB /* TradeViewController.swift */,
+				FAFDB2D62AE63A0900E41FBB /* TradeRoutingDelegate.swift */,
+				FAFDB2D82AE63A1A00E41FBB /* TradeViewModel.swift */,
+				FAFDB2DA2AE63A3D00E41FBB /* TradeCoordinator.swift */,
+			);
+			path = Trade;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,14 +280,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFDB2D52AE6379E00E41FBB /* TopCoordinator.swift in Sources */,
+				FAFDB2C82AE6335200E41FBB /* TopViewController.swift in Sources */,
 				FAFDB29A2AE4E3FE00E41FBB /* ViewController.swift in Sources */,
+				FAFDB2D92AE63A1A00E41FBB /* TradeViewModel.swift in Sources */,
 				FAFDB2B42AE4F43200E41FBB /* UIColor+Extensions.swift in Sources */,
+				FAFDB2DB2AE63A3D00E41FBB /* TradeCoordinator.swift in Sources */,
 				FAFDB2962AE4E3FE00E41FBB /* AppDelegate.swift in Sources */,
+				FAFDB2CD2AE6348900E41FBB /* TabBarViewController.swift in Sources */,
+				FAFDB2BF2AE4FA5800E41FBB /* LaunchScreenCoordinator.swift in Sources */,
+				FAFDB2D32AE6378A00E41FBB /* TopViewModel.swift in Sources */,
 				FAFDB2B22AE4F2FD00E41FBB /* Theme.swift in Sources */,
 				FAFDB2B92AE4F56500E41FBB /* AppCoordinator.swift in Sources */,
+				FAFDB2D72AE63A0900E41FBB /* TradeRoutingDelegate.swift in Sources */,
+				FAFDB2CF2AE634A900E41FBB /* TabBarCoordinator.swift in Sources */,
+				FAFDB2D12AE6377900E41FBB /* TopRoutingDelegate.swift in Sources */,
+				FAFDB2C12AE4FA7400E41FBB /* LaunchScreenRoutingDelegate.swift in Sources */,
 				FAFDB2AF2AE4EDDB00E41FBB /* UIView+Extensions.swift in Sources */,
 				FAFDB2982AE4E3FE00E41FBB /* SceneDelegate.swift in Sources */,
+				FAFDB2BD2AE4FA2F00E41FBB /* LaunchScreenViewController.swift in Sources */,
 				FAFDB2B72AE4F51C00E41FBB /* Coordinator.swift in Sources */,
+				FAFDB2CB2AE6336900E41FBB /* TradeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
